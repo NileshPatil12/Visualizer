@@ -10,3 +10,6 @@ react
 react-dom
 react-router-dom
 rechart
+
+
+Live Demo :- https://NileshPatil12.github.io/Visualizer
