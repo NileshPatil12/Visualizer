@@ -2,9 +2,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route,  Routes } from 'react-router-dom';
 import BarChart from './Components/BarChart';
+import NavBar from './Components/NavBar';
 import Table from './Components/Table';
 import Statistics from './Components/Statistics';
-import NavBar from './Components/NavBar';
+
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
             <Route path="/barchart" element={<BarChart />} />
             <Route path="/table" element={<Table />} />
             <Route path="/statistics" element={<Statistics />} />
-            <Route path="/" element={<BarChart />} /> {/* Default route */}
+            <Route path="/" element={<BarChart />} /> 
           </Routes>
         </div>
       </div>
