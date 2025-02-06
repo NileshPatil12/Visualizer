@@ -2,7 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route,  Routes } from 'react-router-dom';
 import BarChart from './Components/BarChart';
-import NavBar from './Components/NavBar';
+import NavBar from './Components/NavBar.jsx';
 import Table from './Components/Table';
 import Statistics from './Components/Statistics';
 
